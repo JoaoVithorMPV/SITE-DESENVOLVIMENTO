@@ -1,0 +1,221 @@
+✦✦ Desenvolvendo Site com HTML e CSS✦✦
+
+✦Índice das Informações✦
+▷
+
+
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+► Aula: Hello World HTML
+
+01- Comando para criar uma estrutura básica de html
+[É muito simples, você apenas precisa ter um arquivo .html e 
+escrever este comando na área de texto: html:5, após dar "enter" 
+sugirá uma estruta básica completa de html (lembre-se de alterar a lang 
+para pt-br
+Ex:
+<html lang="pt-br">
+]
+
+02- Comando para criar uma estrutura básica de html no Visual Code
+[É muito simples, você apenas precisa ter um arquivo .html e 
+escrever este comando na área de texto: !, após dar "enter" 
+sugirá uma estruta básica completa de html (lembre-se de alterar a lang 
+para pt-br
+Ex:
+<html lang="pt-br">
+]
+
+03- Por que algumas Tags tem que ser abertas e fechadas e outras não
+[O motivo disto é por causa que há Tags que possem a finalidade de possuir 
+conteúdo dentro de si e outras não. As Tags que possem sinais de abertura e 
+fechamento são aquelas que possuirão conteúdo dentro de si e as que não possem
+sinais de fechamento são aquelas que não possuirão conteúdo dentro de si
+Ex:
+
+Tag com aberuta e fechamento: <title>x</title>
+
+Tag apenas com aberuta: <!DOCTYPE html>
+] 
+
+04- Atributo: charset [E o atributo charset serve para indicar o formato de codificação 
+de caracteres utilizado no documento. Existem três diferentes codificações de caracteres: 
+UTF-8, UTF-16 e UTF-32. Destas três somente UTF-8 deve ser usada para conteúdo Web.] 
+
+05- Comando para exibir o código fonte da página [Ctrl + U]
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+► Aula: Marcando as principais sessões do nosso projeto
+
+06- <header> [representa um grupo de suporte introdutório ou navegacional. Pode conter alguns elementos 
+de cabeçalho mas também outros elementos como um logo, seções de cabeçalho, formulário de pesquisa, 
+e outros]
+
+07- <main> [define o conteúdo principal dentro do <body> em seu documento ou aplicação. Entende-se como conteúdo 
+principal aquele relacionado diretamente com o tópico central da página ou com a funcionalidade central da 
+aplicação]
+
+08- <section> [representa uma seção genérica contida em um documento HTML, geralmente com um título, quando não 
+existir um elemento semântico mais específico para representá-lo]
+
+09- <footer> [representa um rodapé para o seu sectioning content (conteúdo de seção) mais próximo ou sectioning 
+root elemento]
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+► Aula: Marcando o cabeçalho mais a fundo
+
+10- Diferença entre Class e Id [Classe é uma maneira de identificar um grupo de elementos como pro exemplo 
+class="button" já o Id é um identificador único para um elemento]
+
+11- Diferença entre Div e Section [Resumindo: para fins de deixar o layout "bonito" e não haver nenhuma semântica 
+por trás, utilize div. Se for representar uma área do seu site, utilize section]
+
+12- <img> [Apresenta na tela do navegador uma imagem, carregada a partir de um arquivo externo ao código HTML
+Ex:
+<div class="col"><img src="../img/logo.png" alt="Logo da Chatschool"></div>
+Dentro de src="x" no local do x ficará o caminho até a imagem, ../ é para retornar uma pasta, isso foi preciso
+já no exemplo a imagem encontra-se em um nível de pasta anterior, img= o nome da pasta, logo =  nome do arquivo ,
+.png = tipo do arquivo, entre o nome da pasta e o nome do arquivo usa-se um barra (/), o atributo alt="x" serve
+para que você possa deixar uma mensagem para o cliente caso a imagem não seja carregada
+]
+
+13- Como mudar o cor de fundo da página [style="background-color: gray;", esse comando deve ser usado dentro da
+tag: <body>]
+
+14- <nav> [Representa uma seção de uma página que aponta para outras páginas ou para outras áreas da página, 
+ou seja, uma seção com links de navegação]
+
+15- <a> [É usada para criar uma âncora de onde vincular, o atributo href é usado para onde endereçar o documento, 
+e as palavras entre as tags de abertura e fechamento da âncora serão exibidas como um hipervínculo
+Ex:
+<li> <a href="03-marcando_cabecalho.html">HOME</a></li>
+] 
+
+16- Tag H1, H2... [ H1 é um cabeçalho HTML geralmente utilizado para marcar o título de uma página da web. 
+A maioria dos websites utiliza CSS para fazer o H1 destacar-se na página em comparação com títulos menores, 
+como H2, H3, etc.]
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+► Aula: Trabalhando com fontes, cores e fundo
+
+#- Como usar/definir os paramentros no CSS []
+
+17- diferença entre HTML e CSS HTML [linguagem de marcação utilizada para estruturar os elementos da página, 
+como parágrafos, links, títulos, tabelas, imagens e até vídeos. CSS: linguagem de estilos utilizada para definir 
+cores, fontes, tamanhos, posicionamento e qualquer outro valor estético para os elementos da página]
+
+18- Aonde conseguir tipos de Fontes [Google Fonts]
+
+19- <link> [Faz parte do conjunto de tags que formam os metadados do cabeçalho do documento HTML e é utilizado para 
+acessar recursos externos da página. Na prática, a tag <link> diz ao navegador que existem recursos externos 
+vinculados à página que podem ser utilizados no código fonte, como os estilos CSS]
+
+20- <style> [é utilizado para transferir informações de formatação para tags, para conteúdos, dentro das tags 
+de uma página HTML]
+
+21- Como utilizar as fontes coletadas no google fonts [Para isso você deverá criar um novo arquivo e ele deverá 
+ser .css, nele você irá adicionar a tag que irá englobar o texto que deseja alterar, por ex: a tag <body> caso você 
+faça isso você alterará a fonte de todo o cordo de seu site (pois incluirá todas as tags dentro dela), após adiconar
+a tag você deve usar {} e dentro dos colchetes você colocará o nome da "font-family" que você coletou no google 
+fonsts
+Ex de como ficaria o arquivo CSS:
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+Já no arquivo HTML você deverá anexar o nome do <style> que você coletou no google fonts. Para lincar as 
+informções do arquivo CSS no arquivo HTML é só utilizar a tag: <link> (ambas as tags deve ser 
+utilizada dentro da tag <head>)
+Ex de como ficaria o arquivo HTML:
+<head>
+    <meta charset="UTF-8">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+        </style>
+    <link rel="stylesheet" href="../css/04-style.css">
+</head>  
+]
+
+22- Propriedade "margin" do CSS [Define a área de margem nos quatro lados do elemento. É uma abreviação que define 
+todas as margens individuais de uma só vez, varaiaçoes: margin-top , margin-right, margin-bottom e margin-left 
+Ex:
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px;
+}
+
+23- Propriedade padding do CSS [Define uma a distância entre o conteúdo de um elemento e suas bordas. É um atalho 
+que evita definir uma distância para cada lado separadamente (padding-top, padding-right, padding-bottom, 
+padding-left)
+Ex:
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+24- Propriedade background-color do CSS [Define a cor de fundo de um elemento
+Ex:
+#header {
+    background-color: black;
+}
+]
+
+25- Propriedade background-color do CSS [Define uma imagem de fundo
+Ex:
+#header {
+    background-color: black;
+    background-image: url("../img/background-header4.png");
+}
+]
+
+26- Propriedade background-size do CSS [Especifica o tamanho das imagens de fundo
+Ex:
+#header {
+    background-color: black;
+    background-image: url("../img/background-header4.png");
+    background-size: cover;
+	(ou)
+    background-size: 100px;
+O "cover" ajusta a imagem de uma forma automática
+}
+
+27- Propriedade color do CSS [Definine o valor da cor de um elemento com seu conteúdo em texto e seus 
+decorações (estilos)
+Ex: 
+#header {
+    background-color: black;
+    background-image: url("../img/background-header.jpg");
+    background-size: cover;
+    color: aliceblue;
+}
+]
+
+28- Como alterar a cor de links no browser [Para poder fazer isto basta escrever o id ou tag que antecede o 
+link (<a>), adicona a letra a ao lado dele no CSS, abrir e fechar colchetes e por fim usar o propriedade color 
+EX:
+#header a {
+    color: aquamarine;
+}
+body a {
+    color: aquamarine;
+}
+o "#" é pra identificar que é um id 
+] 
+
+29- atributo no-repeat [Ele é utilizado dentro do atributo background-image para que não haja uma repetição de 
+imagem para caso ela seja muito pequena para a proporção desejada, semelahnte ao cover do background-size
+Ex:
+background-image: url("../img/background-header.jpg") no-repeat;]
+
+30- 

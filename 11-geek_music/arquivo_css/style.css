@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background: rgb(255, 255, 255);
+    max-width: 100%;
+    height: 100vh;
+}
+
+#chain {
+    border: 4px solid;
+    border-radius: 5px;
+    width: 21.5rem;
+    text-align: center;
+    background-color: rgb(252, 226, 226);
+    height: 27rem;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+#chain:hover {
+    box-shadow: 0 20px 20px rgba(255, 19, 19, 0.589);
+}
+
+#jujutsu {
+    border: 4px solid;
+    border-radius: 5px;
+    width: 21.5rem;
+    text-align: center;
+    background-color: rgb(252, 226, 226);
+    border-color: rgba(173, 78, 78, 0.13);
+}
+
+#dragon {
+    border: 4px solid;
+    border-radius: 5px;
+    width: 21.5rem;
+    text-align: center;
+    background-color: rgb(252, 226, 226);
+    border-color: rgba(173, 78, 78, 0.13);
+}
+
+#sono {
+    border: 4px solid;
+    border-radius: 5px;
+    width: 21.5rem;
+    text-align: center;
+    background-color: rgb(252, 226, 226);
+    border-color: rgba(173, 78, 78, 0.13);
+}
+
+
+#musico {
+    color: black;
+}
+
+#markim {
+    text-decoration: none;
+    color: rgba(255, 53, 2, 0.685);
+}
+
+div#musico {
+    padding: 9px;
+    font-size: 100%;
+}
+
+div#txtchain {
+    padding: 0 30px;
+    color: black;
+}
+
+div#txtchain strong {
+    padding-top: 100px;
+    color: brown;
+}
+
+main {
+    text-decoration: none;
+}
+
+#teste99 {
+    text-decoration: none;
+}

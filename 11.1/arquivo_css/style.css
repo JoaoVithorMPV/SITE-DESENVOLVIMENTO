@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    max-width: 100%;
+    height: 100vh;
+}
+
+#card-chain {
+    border: 4px solid;
+    width: 21.5rem;
+    height: 27rem;
+    background-color: rgb(252, 226, 226);
+    box-shadow: 0 20px 20px rgba( 0, 0, 0, 0.5);
+    transition: 0.3s;
+    text-align: center;
+}
+
+#card-chain:hover {
+    box-shadow: 0 20px 20px rgba(255, 19, 19, 0.589);
+}
+
+#link-chain {
+    text-decoration: none;
+}
+
+#musico-markim {
+    color: rgb(255, 30, 0);
+    padding: 6px;
+    font: 17pt 'Bebas Neue';
+    letter-spacing: 3px;
+}
+
+#txt-chain {
+    color: black;
+    padding: 0 22px;
+    font-weight: 200;
+    font-family: 'Karla', sans-serif;
+}
+
+#obra-chain {
+    color: rgb(255, 30, 0);
+    font-weight: 100;
+    font: 14pt 'Bebas Neue';
+    letter-spacing: 1.5px;
+    padding: 7px;
+}
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+#card-jujutsu {
+    border: 4px solid;
+    width: 21.5rem;
+    height: 27rem;
+    background-color: rgb(252, 226, 226);
+    box-shadow: 0 20px 20px rgba( 0, 0, 0, 0.5);
+    transition: 0.3s;
+    text-align: center;
+}
+
+#card-jujutsu:hover {
+    box-shadow: 0 20px 20px rgba(255, 19, 19, 0.589);
+}
+
+#link-jujutsu {
+    text-decoration: none;
+}
+
+#musico-enygma {
+    color: rgba(37, 23, 233, 0.938);
+    padding: 6px;
+    font: 17pt 'Bebas Neue';
+    letter-spacing: 3px;
+}
+
+#txt-jujutsu {
+    color: black;
+    padding: 0 22px;
+    font-weight: 200;
+    font-family: 'Karla', sans-serif;
+}
+
+#obra-jujutsu {
+    color: rgba(37, 23, 233, 0.938);
+    font-weight: 100;
+    font: 14pt 'Bebas Neue';
+    letter-spacing: 1.5px;
+    padding: 2px;
+}
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+}
